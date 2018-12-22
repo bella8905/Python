@@ -1,0 +1,186 @@
+Teach Python
+	- Check Python version and install Python if needed
+
+################ PRACTICE start ################
+- print("Hello, world!")
+################ PRACTICE end   ################
+
+	- interpreter vs texteditor vs IDE
+		- save as txt file
+		- interpreter
+			>>> exec(open("/Users/yinanding/Desktop/python/HelloWorld.txt").read())
+			or out of interpreter 
+			python /Users/yinanding/Desktop/python/HelloWorld.py 
+
+	- IDE	
+		PyCharm
+	
+	- Debug
+		Traceback
+ 
+	- Variables
+		- naming convention
+			- Camel case vs snake case
+			- joined_lower for functions, methods, attributes, variables
+			- joined_lower or ALL_CAPS for constants
+			- StudlyCaps for classes
+			- camelCase only to conform to pre-existing conventions
+
+		- String
+			- manipulation
+				- Concatenation +
+				- Replication *
+				- strip whitespace
+				- upper/lower/isupper/islower/isX
+					how to determine if two strings are identical, ignoring case? ( 如何判断两个字符串是否相同，不考虑大小写？我知道你看不懂这句 ^0^ )
+				- justification.. ( 对齐 )
+				- See projects at the end of [ Automate the aboring stuff with python ] Chapter 6. "Table Printer" might be a fun one.
+				
+				
+			- escape characters.. '\n', '\t'
+				- what is it?
+				- See Python escape characters. 
+					- how to print?
+						My honey gives me a nickname "xiao zhuzhu". That's perfect for me!
+			- Raw Strings	
+			- Multiline Strings with Triple Quotes
+			- String format.. https://www.programiz.com/python-programming/methods/string/format
+				String formatting is common in coding languages. lots of information there. know what "format" is and it's enough for now..
+
+		- Number
+			- Integer
+			- Float
+			- add (+), subtract (-), multiply (*), divide (/), exponents (**)
+			- Number <-> String
+			
+		
+################ PRACTICE start ################
+- Write a program that uses print() and input() to ask for user's name and age, and print them on screen.
+################ PRACTICE end   ################
+		
+		
+		- List and list-like structures
+			- strings and tuples are list like
+			- mutable and immutable? List/string/tuple, which is mutable and which is immutable?
+			[ Automate the aboring stuff with python ] p21
+			- [i], [-i], in, not in..
+			- chagning/adding(append vs insert)/removing.
+				- can we do these to string or tuple?
+			- Sorting
+				- what's sorting?
+			- reverse
+			- List length
+			- Number List 
+				- Range()
+				- min()/max()/sum()
+			- Slicing/loop/copy a list
+				- what's difference between 
+					some_list 		= ["a", "b"m "c"]
+					copyied_list 	= some_list
+					
+						and 
+					
+					some_list 		= ["a", "b"m "c"]
+					copyied_list 	= some_list[:]
+									
+		- Reference [ Automate the aboring stuff with python ]
+			- List
+			- when function gets called, passing by value VS passing by reference
+			- THIS IS HARD TO UNDERSTANDE AT FIRST. ASK ME!!
+				
+################ PRACTICE start ################
+- Character Picture Grid [ Automate the aboring stuff with python ]
+################ PRACTICE end   ################			
+
+		- Dictionary ( dict in list, list in dict, dict in dict )
+			- also list-like but stores key-value pairs. List uses integers as indices to accesss data, dictionary uses "key". 
+				- eg., some_dict['some_key'] = "some_value"
+			- add new pairs
+			- modify
+			- remove
+			- loop, keys()/values()/items()
+			- get()
+			- unordered vs ordered.. Dictionary is unordered. then how to loop through keys in order?
+				- order of items doesn't matter in determinig if two dicts are the same ( == )
+					@See the example [ Automate the aboring stuff with python ] p106 
+					
+################ PRACTICE start ################		
+- Describe A Tic-Tac-Toe Board [ Automate the aboring stuff with python ]
+################ PRACTICE start ################
+		
+	- The Style Guide
+		- Indentation, 4 spaces. Setup your text editor!!!
+		- Comment
+			- why commenting your code?
+			- general comment 
+				- #
+			- """xxx""" doc string, for functions, class, and method.. and this can be multiline.
+		
+	- flow control 
+		- Boolean values
+			- Comparison
+			- Boolean Operators ( logical operation)
+				- and/or/not.. xor??
+		- if
+		
+		- for ( Loop )
+		- while ( Loop )
+			break/continue
+
+################ PRACTICE start ################
+- Guess Number task. [ Automate the aboring stuff with python ]
+################ PRACTICE end   ################			
+			
+	- Function
+		- why do we need functions?
+		- parameter/argument
+			- positional arguments vs keyword arguments
+			- Default value for parameters
+		- Return values
+		- Local and Global Scope [ Automate the aboring stuff with python ]
+		
+	- Functions in Modules
+		- hide the details of your programs code and focus on its higher-level logic
+		- reuse functions in many different programs
+	
+################ PRACTICE start ################
+- Guess Number task. Can you modify it to use functions?
+- The Collatz Sequence
+################ PRACTICE end   ################	
+	
+	- Program Execution
+		- top -> bottom
+		- flow control. 
+			- if else elif
+			- while/for, break/continue
+		- functions
+		- import module/functions/classes
+		
+	
+	- Classes
+		- object-oriented programming
+		- method
+		- attributes
+		- import... 
+		- Python standard library. Python Module of the Week
+
+		
+	- How to Find Help
+		[ Automate the aboring stuff with python ]
+		
+		
+		
+		
+		Python Crash Course
+		https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Abe01997f-bb05-4f6d-b98c-d3470cbe5b3d
+		
+		Automate the boring stuff with Python
+		https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aaf41105f-1757-4d6d-a796-b8691657fb4f
+		
+		Two fun books for kids:
+		Teach your kids to code
+		https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A151f38a8-3ec8-43ce-9d33-d18683c3b4a7
+		
+		Python for kids
+		https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A9bbc7526-24a1-4ffc-8575-2817555c62c4
+		
