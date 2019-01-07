@@ -33,8 +33,8 @@ Teach Python
 				- strip whitespace
 				- upper/lower/isupper/islower/isX
 					how to determine if two strings are identical, ignoring case? ( 如何判断两个字符串是否相同，不考虑大小写？我知道你看不懂这句 ^0^ )
-				- justification.. ( 对齐 )
-				- See projects at the end of [ Automate the aboring stuff with python ] Chapter 6. "Table Printer" might be a fun one.
+				- justification.. ( 对齐 ) ljust()/rjust()/center()
+				- See projects at the end of [ Automate the boring stuff with python ] Chapter 6. "Table Printer" might be a fun one.
 				
 				
 			- escape characters.. '\n', '\t'
@@ -62,9 +62,9 @@ Teach Python
 		- List and list-like structures
 			- strings and tuples are list like
 			- mutable and immutable? List/string/tuple, which is mutable and which is immutable?
-			[ Automate the aboring stuff with python ] p21
+			[ Automate the boring stuff with python ] p21
 			- [i], [-i], in, not in..
-			- chagning/adding(append vs insert)/removing.
+			- changing/adding(append vs insert)/removing.
 				- can we do these to string or tuple?
 			- Sorting
 				- what's sorting?
@@ -83,13 +83,13 @@ Teach Python
 					some_list 		= ["a", "b"m "c"]
 					copyied_list 	= some_list[:]
 									
-		- Reference [ Automate the aboring stuff with python ]
+		- Reference [ Automate the boring stuff with python ]
 			- List
 			- when function gets called, passing by value VS passing by reference
 			- THIS IS HARD TO UNDERSTANDE AT FIRST. ASK ME!!
 				
 ################ PRACTICE start ################
-- Character Picture Grid [ Automate the aboring stuff with python ]
+- Character Picture Grid [ Automate the boring stuff with python ]
 ################ PRACTICE end   ################			
 
 		- Dictionary ( dict in list, list in dict, dict in dict )
@@ -101,11 +101,11 @@ Teach Python
 			- loop, keys()/values()/items()
 			- get()
 			- unordered vs ordered.. Dictionary is unordered. then how to loop through keys in order?
-				- order of items doesn't matter in determinig if two dicts are the same ( == )
-					@See the example [ Automate the aboring stuff with python ] p106 
+				- order of items doesn't matter in determining if two dicts are the same ( == )
+					@See the example [ Automate the boring stuff with python ] p106 
 					
 ################ PRACTICE start ################		
-- Describe A Tic-Tac-Toe Board [ Automate the aboring stuff with python ]
+- Describe A Tic-Tac-Toe Board [ Automate the boring stuff with python ]
 ################ PRACTICE start ################
 		
 	- The Style Guide
@@ -128,7 +128,7 @@ Teach Python
 			break/continue
 
 ################ PRACTICE start ################
-- Guess Number task. [ Automate the aboring stuff with python ]
+- Guess Number task. [ Automate the boring stuff with python ]
 ################ PRACTICE end   ################			
 			
 	- Function
@@ -166,7 +166,7 @@ Teach Python
 
 		
 	- How to Find Help
-		[ Automate the aboring stuff with python ]
+		[ Automate the boring stuff with python ]
 		
 		
 		
